@@ -1,0 +1,64 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-section{
+    display: flex;
+    background-color: #f2b880;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 170px;
+    align-content: space-between;
+    border-radius: 20px;
+   }
+.navbar
+    {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+    }
+.hero-section img{
+  margin: 50px;
+  box-shadow: -15px -15px #e88121;
+  height: 300px;
+  width: auto;
+}
+.header{
+  display: flex;
+  position: fixed;
+  height: 90px;
+  width: 80%;
+  top: 0%;
+  justify-content: space-between;
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header-logo img{
+height: 90px;
+width: 90px;
+
+}
+.headline-1{
+  margin-top: 110px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.text{
+  width: 40%;
+  margin: auto;
+  padding: 40px;
+}
+.top-link img{
+  position: fixed;
+  top: 90%;
+  left: 95%;
+  height: 40px;
+  width: auto;
+}
+/* Barvy
+Světlá barva pozadí: #f2b880
+Tmavší barvy pozadí za obrázkem: #e88121
+Barva text v oranžovém pozadí: #752400
+*/
