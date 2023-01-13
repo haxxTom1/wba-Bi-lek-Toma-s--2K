@@ -57,6 +57,11 @@ width: 90px;
   height: 40px;
   width: auto;
 }
+.hero-text
+{
+color: #752400;
+
+}
 /* Barvy
 Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
