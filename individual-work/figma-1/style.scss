@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    width: 1440px;
+    background-color: #E5E5E5 ;
+
+}
+header{
+    width: 1440px;
+    height: 140px;
+    background-color: #CBC1B1;
+    position: fixed;
+
+
+    .logo{
+        margin-left: 50px;
+    }
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haha{
+    display: flex;
+    margin-right: 50px;
+    gap: 10px;
+    a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    }
+    a:hover{
+        background-color:  #7C7474;
+    }
+    
+}
+footer{
+    display: grid;
+    width: 1440px;
+    height: 140px;
+    background-color: #CBC1B1;
+    place-items: center;
+    .itema{
+        align-self: end;
+    }
+    .itemb{
+        align-self: baseline;
+    }
+    h1{
+        font-size: small; 
+    }
+}
+.container{
+display: flex;  
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 744px;
+gap: 40px;
+h1{
+    margin-top: 90px;
+}
+.grid-container{    
+    display: grid;
+    grid-template-columns: repeat(2, 420px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 10px;
+    
+        .hah{
+          display: flex;
+          text-align: start;
+          background-color: #b6b5b5;
+          width: 840px;
+          height: 170px;
+          box-shadow: 1px 7px 4px -1px rgb(132, 131, 131);
+          border-width: 0;
+        }
+        input{
+            display: flex;
+            align-items: center;
+            background-color: #b6b5b5;
+            box-shadow: 1px 7px 4px -1px rgb(132, 131, 131);
+            border-width: 0;
+            form{
+                margin-left: 10px;
+            }
+        
+            
+        }
+    }
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 156px);
+    height: 700px;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+.info-item{
+    display: flex;
+    padding-top: 70px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-size: small;
+}
+button{
+    height: 48px;
+    width: 180px;
+    color: white;
+    background-color: #575454;;
+    box-shadow: 1px 5px 4px -1px rgb(95, 92, 92);
+}
+.top{
+    display: flex;
+    background-image: url(hero\ image.png);
+    height: 820px;
+    align-items: end;
+    justify-content: right;
+}
+.odstavec{
+    display: flex;
+    width: 646px;
+    height: 380px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(135, 133, 133, 0.4);
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    h1{
+        padding-top: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px gray;
+    }
+    p{
+        padding-left: 15px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 2px gray;
+    }
+    button{
+        color: white;
+        background-color: #575454;
+    }
+}
+.bot{
+ height: 1050px;
+ display: flex;
+ flex-direction: column;
+ gap: 100px;
+ background-color: #E5E5E5;
+ align-items: center;
+ justify-content: center;
+  
+ .obrazkotexttata{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+ }
+ .obrazkotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    gap: 20px;
+    h1{
+        margin: 0;
+        font-size: 25px;
+    }
+    p{
+        max-width: 320px;
+    }
+ }
+ button{
+    margin-bottom: 100px;
+    color: white;
+    background-color: #575454;
+ }
+ h1{
+    margin-top: 100px;
+ }
+}
+.active{
+    background-color: #7C7474;
+}
+@media screen and (max-width: 390px) {
+
+    body{
+         width: 390px;
+        }
+    header{
+        width: 390px;
+        height: 80px;
+        .logo{
+            height: 80px;
+            width: 80px;
+        }
+        .burger{
+            height: 30px;
+            width: 30px;
+            margin-right: 50px;
+        }
+
+    }
+    footer{
+            width: 390px;
+            height: 90px;
+    }
+    .info{
+    display: grid;
+    grid-template-columns: 390px;
+    grid-template-rows: repeat(6, 70px);
+    height: 766px;
+    width: 390px;
+    gap: 10px;
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    .info-item{
+        font-size: 7px;
+        width: 200px;
+        place-self: center;
+    }
+ }
+    .container{
+     height: 766px;
+        .grid-container{
+         display: grid;
+         grid-template-columns: 310px;
+         grid-template-rows: repeat(7, 30px) ;
+         height: 336px;
+         width: 310px;
+         row-gap: 15px;
+            .hah{
+             width: 310px;
+             height: 90px;
+             border-width: 0;
+             box-shadow: 1px 5px 4px -1px rgb(186 186 186);
+            }
+            input{
+             height: 30px;
+             width: 310px;
+             border-width: 0;
+             box-shadow: 1px 5px 4px -1px rgb(186 186 186);
+            }
+        }
+        button{
+         color: white;
+         background-color: #575454;;
+         box-shadow: 1px 5px 4px -1px rgb(95, 92, 92);
+        }
+    }
+  .top{
+     background-color: #E5E5E5;
+     height: 380px;
+     justify-content: center;
+     background-image: none;
+        .odstavec{
+         width: 310px;
+         height: 250px;
+         background-color: rgba(135, 133, 133);
+         gap: 0px;
+         margin-bottom: 0px;
+         margin-right: 0px;
+         justify-content: center;
+            button{
+             height: 25px;
+             width: 125px;
+            }
+            h1{
+             font-size: 20px;
+             padding-top: 0;
+            }
+        p{
+            font-size: 13px;
+            padding-left: 15px;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 2px gray;
+        }
+        button{
+            color: white;
+            background-color: #9f9b9b;
+            box-shadow: 0px 1px 1px black;
+            color: black;
+        }
+    }
+  }
+  button{
+    height: 30px;
+  }
+  .bot{
+    justify-content: center;
+    gap: 35px;
+    height: 686px;
+    padding-top: 50px;
+    h2{
+        font-size: 11px;
+    }
+    .obrazkotexttata{
+        flex-direction: column;
+        gap: 35px;
+       
+        .obrazkotext{
+            width: 320px;
+            flex-direction: row;
+            justify-content: start;
+            img{
+                height: 117px;
+                width: 117px;
+            }
+            .obrazkotext-text{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font-size: 14px;
+                }
+                p{
+                    max-width: 152px;
+                    font-size: 10px;
+                }
+    
+    
+            }
+    
+    
+    
+    
+        }
+    
+      }
+button{
+    margin-bottom: 0;
+}
+  }
+  .haha{
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 391px) {
+    .burger{
+        display: none;
+    }
+}

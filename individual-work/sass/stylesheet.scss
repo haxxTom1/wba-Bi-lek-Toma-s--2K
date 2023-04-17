@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    color: white;
+    align-content: center;
+    justify-content: center;
+}
+.middle{
+ display: grid;
+ width: 1440px;
+ height: 750px;
+ grid-template-columns: repeat(3, 480px) ;
+ grid-template-rows: repeat(3, 250px);
+  div{
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 480px;
+  }
+ img{
+    height: 100%;
+    width: 100%;
+ }
+
+}
